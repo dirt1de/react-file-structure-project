@@ -10,12 +10,13 @@ export default function Folder(props) {
         setIsOpen(!isOpen)
     }
 
-
     return (
         <div>
             <span onDoubleClick={toggleOpen}>
                 <i className={folderStatus}></i>
-                {folderName}
+                <div style={{display:"inline", fontSize:"1.2rem", fontWeight:"bold"}}>
+                    {folderName}
+                </div>
             </span>
             
             

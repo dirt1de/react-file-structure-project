@@ -5,6 +5,8 @@ import File from './File'
 function App() {
   return (
     <div>
+      <h2>Here is how your Desktop may look like</h2>
+      <p>Double Click on the folder icon to open it</p>
       <Folder folderName="Desktop">
         <Folder folderName="Video">
           <File fileName="childhood.mp4"></File>
@@ -17,14 +19,14 @@ function App() {
           <File fileName="shanghai.jpg"></File>
         </Folder>
         <Folder folderName="Applications">
-          <File fileName="WeChat"></File>
-          <File fileName="Slack"></File>
-          <File fileName="QuickPlay"></File>
+          <File fileName="WeChat.exe"></File>
+          <File fileName="Slack.exe"></File>
+          <File fileName="QuickPlay.exe"></File>
 
         </Folder>
         <Folder folderName="Game">
-          <File fileName="COD"></File>
-          <File fileName="LOL"></File>
+          <File fileName="COD.exe"></File>
+          <File fileName="LOL.exe"></File>
 
         </Folder>
       </Folder>
